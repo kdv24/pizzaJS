@@ -20,3 +20,8 @@
 body {
   background-color: #CF5300;
 }
+
+header h3 {
+  color: #CF5300;
+  text-shadow: 2px 2px black;
+}
