@@ -1,3 +1,22 @@
 .patron_order {
   display: none;
 }
+
+.page-header {
+    background: url("img/slice.png") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 200px;
+    margin-top: 5px;
+    color: #CF5300;
+}
+
+.containerSeeThrough {
+    background-color: rgba(255,255,255, .5);
+}
+
+body {
+  background-color: #CF5300;
+}

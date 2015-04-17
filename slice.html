@@ -10,33 +10,37 @@
   <body>
     <div class="container">
         <header class="page-header">
+          <div class="container">
             <h1>Slice:</h1>
-            <h4> a pizza joint</h4>
+            <h3> a pizza joint</h3>
+          </div>
         </header>
+    <div id="name">
+      <form id="order_form" class="form-group">
+        <div>
+          <label for="pizza_type">Choose the type of pizza you'd like:</label>
+          <select id="pizza_type">
+            <option value="0">Cheese</option>
+            <option value="1">Pepperoni</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <label for="pizza_size">Choose the size of your pizza:</label>
+          <select id="pizza_size">
+            <option value="0">Small</option>
+            <option value="1">Large</option>
+          </select>
+        </div>
+        <br>
+        <button class="btn btn-warning" type="submit">Place order</button>
+      </form>
+    </div>
+    <div class="container patron_order">
+      <h3>Thanks for ordering from 'Slice' pizza joint!</h3>
+      <h4>The cost of your pizza is $<span class="pizza_cost"></span>.00.</h4>
+    </div>
+    </div>
 
-    <form id="order_form" class="form-group">
-      <div>
-        <label for="pizza_type">Choose the type of pizza you'd like:</label>
-        <select id="pizza_type">
-          <option value="0">Cheese</option>
-          <option value="1">Pepperoni</option>
-        </select>
-      </div>
-      <br>
-      <div>
-        <label for="pizza_size">Choose the size of your pizza:</label>
-        <select id="pizza_size">
-          <option value="0">Small</option>
-          <option value="1">Large</option>
-        </select>
-      </div>
-      <br>
-      <button class="btn btn-warning" type="submit">Place order</button>
-    </form>
-  </div>
-  <div class="container patron_order">
-    <h3>Thanks for ordering from 'Slice' pizza joint!</h3>
-    <h4>The cost of your pizza is $<span class="pizza_cost"></span>.00.</h4>
-  </div>
   </body>
 </html>
