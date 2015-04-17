@@ -26,6 +26,7 @@ $(document).ready(function(){
     $("select#pizza_size").val("");
 
     $(".patron_order").show();
+    $("#order_form").hide();
     $(".pizza_cost").text(pizzaCost);
 
   });
