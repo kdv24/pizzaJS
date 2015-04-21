@@ -1,10 +1,10 @@
-# Name:'Slice' : a pizza ordering app
+# Name: 'Slice' : a pizza ordering app
 # Date: April 17, 2015
 
 Description:
 This app will return the correct price for a pizza, based on the chosen type and size.
 
-# SetUp and Use
+# SetUp and Use#
 In order to use this program all you need is a browser.
 
 SetUp
