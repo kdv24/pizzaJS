@@ -17,6 +17,6 @@ This web app was designed to practice JavaScript and jQuery. It will return the 
  
 *AngularJS
 *Bootstrap
-#### License MIT [MIT](https://gist.github.com/tfmertz/f59650110a594d4e226b)
+#### License [MIT](https://gist.github.com/kdv24/3f10fca06a7d78d09abf)
  
 
