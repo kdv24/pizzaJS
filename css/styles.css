@@ -2,13 +2,13 @@
   display: none;
 }
 
-.page-header {
-    background: url("img/slice.png") no-repeat center;
+.jumbotron {
+    background: url("img/slice.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 200px;
+    height: 300px;
     margin-top: 5px;
     color: #CF5300;
 }
@@ -21,7 +21,14 @@ body {
   background-color: #CF5300;
 }
 
+.jumbotron h1 {
+  margin-top: 0px;
+  font-size: 98px;
+  text-shadow: 2px 2px black;
+}
+
 header h3 {
   color: #CF5300;
+  margin-top: 5px;
   text-shadow: 2px 2px black;
 }
